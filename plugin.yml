@@ -1,0 +1,22 @@
+name: NekoProfiles
+main: me.nya.NekoProfiles
+version: 1.0
+api-version: 1.17
+depend: [LuckPerms, DiscordSRV, PlaceholderAPI, NekoCore]
+softdepend: [NekoTeams, NekoTags , ActionsChat]
+commands:
+   profile:
+      description: Perfil
+      usage: /<command> [Nombre]
+   nekoprofiles:
+      aliases: [np]
+      description: Comando principal de NekoProfiles
+      usage: /<command>
+   nekogroups:
+      aliases: [ng, ranks]
+      description: Modulo de grupos y prefixes de NekoProfiles
+      usage: /<command>
+   birthday:
+      aliases: [bday]
+      description: Modulo de cumpleaños de NekoProfiles
+      usage: /<command>
